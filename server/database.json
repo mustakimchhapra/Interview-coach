@@ -1,0 +1,707 @@
+{
+  "users": [
+    {
+      "id": "user-demo-123",
+      "email": "demo@interviewcoach.ai",
+      "passwordHash": "$2a$10$Wgnw4clS0pYCsTJoXNY99u/wmbbQYWg73YXzNMcz/ZzwEeiUO6gzS",
+      "name": "Alex Chen",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "createdAt": "2026-09-07T16:20:29.587Z",
+      "updatedAt": "2026-09-07T16:20:29.589Z"
+    },
+    {
+      "id": "user-1788799339181",
+      "email": "sarah.connor@cyberdyne.ai",
+      "passwordHash": "$2a$10$.NRTAPpQ10ND1LfXIqX4QeH0/4XgWi6wa48RZfQNG53CQWi5aaPF6",
+      "name": "Sarah Connor",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Sarah%20Connor",
+      "createdAt": "2026-09-07T16:42:19.181Z",
+      "updatedAt": "2026-09-07T16:42:19.181Z"
+    },
+    {
+      "id": "user-1788799365398",
+      "email": "neo@matrix.io",
+      "passwordHash": "$2a$10$yVK2y4ZFS2MrG4DKEgPIKeQ0GFW7PSF//r6e09VZZBmfcfYc245.O",
+      "name": "Neo Anderson",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Neo%20Anderson",
+      "emailVerified": false,
+      "verificationCode": "746830",
+      "createdAt": "2026-09-07T16:42:45.398Z",
+      "updatedAt": "2026-09-07T16:42:45.401Z"
+    },
+    {
+      "id": "user-1791864252171",
+      "email": "test.candidate@gmail.com",
+      "passwordHash": "$2a$10$ErrZM1K8pPcMSmBI37lBl.uQMWrF71p//gwdnDe2.lZu5gxovvcSu",
+      "name": "Test Candidate",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Test%20Candidate",
+      "emailVerified": false,
+      "verificationCode": "723184",
+      "createdAt": "2026-10-13T04:04:12.171Z",
+      "updatedAt": "2026-10-13T04:04:12.171Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "profile-demo-123",
+      "userId": "user-demo-123",
+      "targetRole": "Full Stack Engineer",
+      "experience": "Senior (5+ yrs)",
+      "techStack": "React, TypeScript, Node.js, Express, PostgreSQL, Redis",
+      "targetCompany": "Top Tier Tech / Stripe / Google",
+      "bio": "Passionate software engineer preparing for senior full-stack and systems engineering rounds.",
+      "updatedAt": "2026-09-07T16:20:29.589Z"
+    },
+    {
+      "id": "profile-1788799339182",
+      "userId": "user-1788799339181",
+      "targetRole": "Senior Cloud Architect",
+      "experience": "Senior (5+ yrs)",
+      "techStack": "GCP, Kubernetes, Terraform, Go",
+      "targetCompany": "Top Tech",
+      "updatedAt": "2026-09-07T16:42:19.182Z"
+    },
+    {
+      "id": "profile-1788799365402",
+      "userId": "user-1788799365398",
+      "targetRole": "Staff Systems Architect",
+      "experience": "Staff (8+ yrs)",
+      "techStack": "C++, Rust, Distributed Systems",
+      "targetCompany": "Top Tech",
+      "updatedAt": "2026-09-07T16:42:45.402Z"
+    },
+    {
+      "id": "profile-1791864252173",
+      "userId": "user-1791864252171",
+      "targetRole": "Full Stack Engineer",
+      "experience": "Mid-Level (2-4 yrs)",
+      "techStack": "React, Node.js, TypeScript",
+      "targetCompany": "Top Tech",
+      "updatedAt": "2026-10-13T04:04:12.173Z"
+    }
+  ],
+  "interview_sessions": [
+    {
+      "id": "session-sample-1",
+      "userId": "user-demo-123",
+      "role": "Full Stack Engineer",
+      "difficulty": "Senior",
+      "type": "Technical & Architecture",
+      "status": "completed",
+      "startedAt": "2026-09-04T16:20:29.589Z",
+      "endedAt": "2026-09-04T16:50:29.589Z"
+    },
+    {
+      "id": "session-1788798518627",
+      "userId": "user-demo-123",
+      "role": "Full Stack Engineer",
+      "difficulty": "Senior",
+      "type": "Technical & Behavioral",
+      "status": "in_progress",
+      "startedAt": "2026-09-07T16:28:38.627Z",
+      "endedAt": null,
+      "totalQuestions": 2
+    },
+    {
+      "id": "session-1788798569669",
+      "userId": "user-demo-123",
+      "role": "Full Stack Engineer",
+      "difficulty": "Senior",
+      "type": "Technical & Behavioral",
+      "status": "in_progress",
+      "startedAt": "2026-09-07T16:29:29.669Z",
+      "endedAt": null,
+      "totalQuestions": 3
+    },
+    {
+      "id": "session-1793535460352",
+      "userId": "user-demo-123",
+      "role": "Full Stack Engineer",
+      "difficulty": "Senior",
+      "type": "Technical & Behavioral",
+      "status": "in_progress",
+      "startedAt": "2026-11-01T12:17:40.352Z",
+      "endedAt": null,
+      "totalQuestions": 2
+    }
+  ],
+  "interview_questions": [
+    {
+      "id": "q-1788798518628-1",
+      "sessionId": "session-1788798518627",
+      "question": "How do you handle real-time bi-directional synchronization between React clients and an Express backend under high concurrency?",
+      "category": "technical",
+      "orderNo": 1,
+      "coachTip": "Focus on clear communication, structured reasoning (STAR method), and quantitative metrics.",
+      "createdAt": "2026-09-07T16:28:38.628Z"
+    },
+    {
+      "id": "q-1788798518651-2",
+      "sessionId": "session-1788798518627",
+      "question": "What security measures do you implement across the full stack against XSS, CSRF, and SQL Injection attacks?",
+      "category": "technical",
+      "orderNo": 2,
+      "coachTip": "Focus on clear communication, structured reasoning (STAR method), and quantitative metrics.",
+      "createdAt": "2026-09-07T16:28:38.651Z"
+    },
+    {
+      "id": "q-1788798569671-1",
+      "sessionId": "session-1788798569669",
+      "question": "How do you handle real-time bi-directional synchronization between React clients and an Express backend under high concurrency?",
+      "category": "technical",
+      "orderNo": 1,
+      "coachTip": "Focus on clear communication, structured reasoning (STAR method), and quantitative metrics.",
+      "createdAt": "2026-09-07T16:29:29.671Z"
+    },
+    {
+      "id": "q-1793535468655-1",
+      "sessionId": "session-1793535460352",
+      "question": "Imagine you are designing a real-time collaborative document editor (similar to Google Docs or Notion) for an enterprise web application. How would you architect this system end-to-end? Walk me through your choices for client-side state management, real-time communication protocols, conflict resolution strategies (e.g., OT vs. CRDTs), and backend database scaling under high concurrent write loads.",
+      "category": "architecture",
+      "orderNo": 1,
+      "coachTip": "As a senior candidate, avoid just listing technologies. Highlight the trade-offs of your choices—for example, compare Operational Transformation (OT) vs. Conflict-free Replicated Data Types (CRDTs), explain how to handle client optimistic updates with eventual consistency, and detail how you would scale WebSocket connections horizontally using a message broker like Redis Pub/Sub.",
+      "createdAt": "2026-11-01T12:17:48.655Z"
+    },
+    {
+      "id": "q-1793535478658-2",
+      "sessionId": "session-1793535460352",
+      "question": "What security measures do you implement across the full stack against XSS, CSRF, and SQL Injection attacks?",
+      "category": "technical",
+      "orderNo": 2,
+      "coachTip": "Focus on clear communication, structured reasoning (STAR method), and quantitative metrics.",
+      "createdAt": "2026-11-01T12:17:58.658Z"
+    }
+  ],
+  "answers": [
+    {
+      "id": "ans-1788798518649",
+      "questionId": "q-1788798518628-1",
+      "transcript": "In our payment processing system, we experienced high latency under 10k requests/sec. I profiled queries, implemented Redis caching with eviction policies, and tuned postgres connection pools. As a result, P99 latency dropped by 45% and error rates fell below 0.01%.",
+      "durationSeconds": 42,
+      "fillerWordCount": 1,
+      "audioMetrics": "{}",
+      "videoMetrics": "{\"eyeContactScore\":91,\"facePresent\":true,\"posture\":\"Optimal Alignment\"}",
+      "evaluation": "{\"overallScore\":85,\"communication\":79,\"technical\":88,\"confidence\":91,\"nonVerbalScore\":91,\"strengths\":[\"Good depth of response and relevant technical articulation.\",\"Good structure and awareness of impact.\"],\"weaknesses\":[\"Could substantiate points with more measurable business outcomes.\"],\"improvements\":[\"Use the STAR method explicitly: Situation -> Task -> Action -> Quantifiable Result.\",\"Highlight trade-offs and alternative solutions to show architectural maturity.\"],\"starAnalysis\":{\"situation\":\"Contextual setting described.\",\"task\":\"Core engineering task identified.\",\"action\":\"Technical choices highlighted.\",\"result\":\"Could strengthen the quantified outcome.\"},\"idealAnswerSummary\":\"A top-tier response directly answers the core question, outlines architectural trade-offs, and validates the solution with real-world metrics (e.g. latency, throughput, error rates).\"}",
+      "createdAt": "2026-09-07T16:28:38.649Z"
+    },
+    {
+      "id": "ans-1793535477343",
+      "questionId": "q-1793535468655-1",
+      "transcript": "In our payment processing system, we experienced high latency under 10k requests/sec. I profiled queries, implemented Redis caching with eviction policies, and tuned postgres connection pools. As a result, P99 latency dropped by 45% and error rates fell below 0.01%.",
+      "durationSeconds": 42,
+      "fillerWordCount": 1,
+      "audioMetrics": "{}",
+      "videoMetrics": "{\"eyeContactScore\":91,\"facePresent\":true,\"posture\":\"Optimal Alignment\"}",
+      "evaluation": "{\"overallScore\":32,\"communication\":45,\"technical\":18,\"confidence\":85,\"nonVerbalScore\":92,\"strengths\":[\"Delivered a well-structured response with clear, quantitative results (P99 latency down 45%, error rates <0.01%).\",\"Excellent non-verbal delivery with 91% eye contact, strong face stability, and minimal filler words.\"],\"weaknesses\":[\"Completely failed to address the asked question regarding real-time collaborative document editor architecture.\",\"Provided a canned response about payment system query performance instead of discussing conflict resolution (OT vs. CRDTs), WebSockets, or collaborative client state management.\"],\"improvements\":[\"Listen carefully to the specific system design requirements in the prompt before responding.\",\"Practice designing collaborative real-time systems, focusing on WebSocket connection management, operational transformation (OT) versus conflict-free replicated data types (CRDTs), and document state persistence.\"],\"starAnalysis\":{\"situation\":\"Described a high-latency issue in a payment processing system under 10k req/sec (completely off-topic for the prompt).\",\"task\":\"Implied task was to optimize database performance and latency for payment processing.\",\"action\":\"Profiled queries, implemented Redis caching with eviction policies, and tuned PostgreSQL connection pools.\",\"result\":\"P99 latency dropped by 45% and error rates fell below 0.01%.\"},\"idealAnswerSummary\":\"A top-tier answer should architect an end-to-end collaborative editor: 1) Client state using a local document model integrated with CRDTs (e.g., Yjs or Automerge) or OT. 2) Real-time layer using WebSockets with fallback to HTTP Long Polling, routed via a dynamic socket server cluster with Redis Pub/Sub for room state. 3) Conflict resolution choice: compare OT (requires centralized server authority like Google Docs) vs. CRDTs (decentralized/eventual consistency, preferred for modern rich-text apps like Notion/Figma). 4) Data persistence: append-only log of operations in Cassandra/DynamoDB with periodic snapshotting to S3/Postgres to efficiently handle high concurrent write loads.\"}",
+      "createdAt": "2026-11-01T12:17:57.344Z"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "feedback-sample-1",
+      "sessionId": "session-sample-1",
+      "overallScore": 88,
+      "communication": 86,
+      "technical": 92,
+      "confidence": 85,
+      "nonVerbalScore": 89,
+      "strengths": "[\"Strong grasp of distributed systems and caching mechanisms\",\"Articulate explanation of React reconciliation and rendering trade-offs\",\"Consistent eye-contact and confident posture throughout the round\"]",
+      "weaknesses": "[\"Could provide deeper quantitative metrics when discussing previous project impact\",\"Slight hesitation when discussing edge-case database lock contention\"]",
+      "improvements": "[\"Practice framing answers tightly using the STAR framework\",\"Mention latency benchmarks (P95/P99) proactively in system design\"]",
+      "starAnalysis": "{\"situation\":\"Clearly defined background context and project constraints\",\"task\":\"Accurately stated engineering objectives and SLA targets\",\"action\":\"Highlighted individual contributions and technical leadership\",\"result\":\"Quantified outcomes (40% latency reduction, 99.99% uptime)\"}",
+      "createdAt": "2026-09-04T16:20:29.589Z"
+    }
+  ],
+  "coding_challenges": [
+    {
+      "id": "chal-two-sum",
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "category": "Arrays & Hash Table",
+      "prompt": "### Problem Description\nGiven an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.\n\nYou may assume that each input would have ***exactly one solution***, and you may not use the *same* element twice.\n\nYou can return the answer in any order.\n\n#### Example 1:\n```\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\n```\n\n#### Example 2:\n```\nInput: nums = [3,2,4], target = 6\nOutput: [1,2]\n```\n\n#### Constraints:\n- `2 <= nums.length <= 10^4`\n- `-10^9 <= nums[i] <= 10^9`\n- `-10^9 <= target <= 10^9`\n- **Only one valid answer exists.**\n",
+      "starterCode": "function twoSum(nums, target) {\n  // Write your code here\n  const map = new Map();\n  for (let i = 0; i < nums.length; i++) {\n    const complement = target - nums[i];\n    if (map.has(complement)) {\n      return [map.get(complement), i];\n    }\n    map.set(nums[i], i);\n  }\n  return [];\n}",
+      "testData": [
+        {
+          "input": [
+            [
+              2,
+              7,
+              11,
+              15
+            ],
+            9
+          ],
+          "expected": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": [
+            [
+              3,
+              2,
+              4
+            ],
+            6
+          ],
+          "expected": [
+            1,
+            2
+          ]
+        },
+        {
+          "input": [
+            [
+              3,
+              3
+            ],
+            6
+          ],
+          "expected": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": [
+            [
+              -1,
+              -2,
+              -3,
+              -4,
+              -5
+            ],
+            -8
+          ],
+          "expected": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chal-valid-parentheses",
+      "slug": "valid-parentheses",
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "category": "Stacks & Strings",
+      "prompt": "### Problem Description\nGiven a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.\n\nAn input string is valid if:\n1. Open brackets must be closed by the same type of brackets.\n2. Open brackets must be closed in the correct order.\n3. Every close bracket has a corresponding open bracket of the same type.\n\n#### Example 1:\n```\nInput: s = \"()\"\nOutput: true\n```\n\n#### Example 2:\n```\nInput: s = \"()[]{}\"\nOutput: true\n```\n\n#### Example 3:\n```\nInput: s = \"(]\"\nOutput: false\n```\n",
+      "starterCode": "function isValid(s) {\n  // Write your solution here\n  const stack = [];\n  const map = { ')': '(', '}': '{', ']': '[' };\n  \n  for (const char of s) {\n    if (char in map) {\n      if (stack.pop() !== map[char]) return false;\n    } else {\n      stack.push(char);\n    }\n  }\n  return stack.length === 0;\n}",
+      "testData": [
+        {
+          "input": [
+            "()"
+          ],
+          "expected": true
+        },
+        {
+          "input": [
+            "()[]{}"
+          ],
+          "expected": true
+        },
+        {
+          "input": [
+            "(]"
+          ],
+          "expected": false
+        },
+        {
+          "input": [
+            "([)]"
+          ],
+          "expected": false
+        },
+        {
+          "input": [
+            "{[]}"
+          ],
+          "expected": true
+        },
+        {
+          "input": [
+            ""
+          ],
+          "expected": true
+        }
+      ]
+    },
+    {
+      "id": "chal-longest-substring",
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "category": "Sliding Window",
+      "prompt": "### Problem Description\nGiven a string `s`, find the length of the **longest substring** without repeating characters.\n\n#### Example 1:\n```\nInput: s = \"abcabcbb\"\nOutput: 3\nExplanation: The answer is \"abc\", with the length of 3.\n```\n\n#### Example 2:\n```\nInput: s = \"bbbbb\"\nOutput: 1\nExplanation: The answer is \"b\", with the length of 1.\n```\n\n#### Example 3:\n```\nInput: s = \"pwwkew\"\nOutput: 3\nExplanation: The answer is \"wke\", with the length of 3.\n```\n",
+      "starterCode": "function lengthOfLongestSubstring(s) {\n  // Write your sliding window solution here\n  let maxLength = 0;\n  let left = 0;\n  const set = new Set();\n  \n  for (let right = 0; right < s.length; right++) {\n    while (set.has(s[right])) {\n      set.delete(s[left]);\n      left++;\n    }\n    set.add(s[right]);\n    maxLength = Math.max(maxLength, right - left + 1);\n  }\n  return maxLength;\n}",
+      "testData": [
+        {
+          "input": [
+            "abcabcbb"
+          ],
+          "expected": 3
+        },
+        {
+          "input": [
+            "bbbbb"
+          ],
+          "expected": 1
+        },
+        {
+          "input": [
+            "pwwkew"
+          ],
+          "expected": 3
+        },
+        {
+          "input": [
+            ""
+          ],
+          "expected": 0
+        },
+        {
+          "input": [
+            " "
+          ],
+          "expected": 1
+        },
+        {
+          "input": [
+            "dvdf"
+          ],
+          "expected": 3
+        }
+      ]
+    },
+    {
+      "id": "chal-merge-intervals",
+      "slug": "merge-intervals",
+      "title": "Merge Intervals",
+      "difficulty": "Medium",
+      "category": "Arrays & Sorting",
+      "prompt": "### Problem Description\nGiven an array of `intervals` where `intervals[i] = [start_i, end_i]`, merge all overlapping intervals, and return *an array of the non-overlapping intervals that cover all the intervals in the input*.\n\n#### Example 1:\n```\nInput: intervals = [[1,3],[2,6],[8,10],[15,18]]\nOutput: [[1,6],[8,10],[15,18]]\nExplanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].\n```\n\n#### Example 2:\n```\nInput: intervals = [[1,4],[4,5]]\nOutput: [[1,5]]\nExplanation: Intervals [1,4] and [4,5] are considered overlapping.\n```\n",
+      "starterCode": "function merge(intervals) {\n  // Write your solution here\n  if (!intervals.length) return [];\n  intervals.sort((a, b) => a[0] - b[0]);\n  \n  const merged = [intervals[0]];\n  for (let i = 1; i < intervals.length; i++) {\n    const current = intervals[i];\n    const last = merged[merged.length - 1];\n    \n    if (current[0] <= last[1]) {\n      last[1] = Math.max(last[1], current[1]);\n    } else {\n      merged.push(current);\n    }\n  }\n  return merged;\n}",
+      "testData": [
+        {
+          "input": [
+            [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                8,
+                10
+              ],
+              [
+                15,
+                18
+              ]
+            ]
+          ],
+          "expected": [
+            [
+              1,
+              6
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              15,
+              18
+            ]
+          ]
+        },
+        {
+          "input": [
+            [
+              [
+                1,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "expected": [
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        {
+          "input": [
+            [
+              [
+                6,
+                8
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                7
+              ]
+            ]
+          ],
+          "expected": [
+            [
+              1,
+              9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chal-debounce",
+      "slug": "implement-debounce",
+      "title": "Implement Debounce Function",
+      "difficulty": "Medium",
+      "category": "JavaScript & Closures",
+      "prompt": "### Problem Description\nImplement a `debounce` function that takes a function `fn` and a delay in milliseconds `t`.\nThe debounced function should delay invoking `fn` until after `t` milliseconds have elapsed since the last time the debounced function was invoked.\n\n#### Example:\n```javascript\nconst log = debounce((val) => console.log(val), 50);\nlog('hello'); // cancelled if invoked again within 50ms\n```\n",
+      "starterCode": "function debounce(fn, t) {\n  let timer = null;\n  return function(...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => {\n      fn.apply(this, args);\n    }, t);\n  };\n}",
+      "testData": [
+        {
+          "input": [
+            50
+          ],
+          "expected": "function"
+        }
+      ]
+    }
+  ],
+  "coding_submissions": [
+    {
+      "id": "sub-1788798518669",
+      "userId": "user-demo-123",
+      "challengeId": "chal-two-sum",
+      "code": "function twoSum(nums, target) {\n        const map = new Map();\n        for (let i = 0; i < nums.length; i++) {\n          const complement = target - nums[i];\n          if (map.has(complement)) return [map.get(complement), i];\n          map.set(nums[i], i);\n        }\n        return [];\n      }",
+      "language": "javascript",
+      "status": "passed",
+      "score": 100,
+      "passedCount": 4,
+      "totalCount": 4,
+      "runtimeMs": 7.04,
+      "aiReview": "{\"timeComplexity\":\"O(n)\",\"spaceComplexity\":\"O(n)\",\"verdict\":\"Optimal\",\"review\":\"Clean implementation. Good variable naming and handles primary constraints smoothly.\",\"optimizationTip\":\"Ensure memory usage is minimized by avoiding redundant object allocations in loops.\"}",
+      "submittedAt": "2026-09-07T16:28:38.669Z"
+    },
+    {
+      "id": "sub-1791864325782",
+      "userId": "user-demo-123",
+      "challengeId": "chal-two-sum",
+      "code": "function twoSum(nums, target) { const map = new Map(); for (let i = 0; i < nums.length; i++) { const comp = target - nums[i]; if (map.has(comp)) return [map.get(comp), i]; map.set(nums[i], i); } return []; }",
+      "language": "javascript",
+      "status": "passed",
+      "score": 100,
+      "passedCount": 4,
+      "totalCount": 4,
+      "runtimeMs": 5.15,
+      "aiReview": "{\"timeComplexity\":\"O(n)\",\"spaceComplexity\":\"O(n)\",\"verdict\":\"Optimal\",\"review\":\"Clean implementation. Good variable naming and handles primary constraints smoothly.\",\"optimizationTip\":\"Ensure memory usage is minimized by avoiding redundant object allocations in loops.\"}",
+      "submittedAt": "2026-10-13T04:05:25.782Z"
+    },
+    {
+      "id": "sub-1793535482644",
+      "userId": "user-demo-123",
+      "challengeId": "chal-two-sum",
+      "code": "function twoSum(nums, target) {\n        const map = new Map();\n        for (let i = 0; i < nums.length; i++) {\n          const complement = target - nums[i];\n          if (map.has(complement)) return [map.get(complement), i];\n          map.set(nums[i], i);\n        }\n        return [];\n      }",
+      "language": "javascript",
+      "status": "passed",
+      "score": 100,
+      "passedCount": 4,
+      "totalCount": 4,
+      "runtimeMs": 5.02,
+      "aiReview": "{\"timeComplexity\":\"O(n)\",\"spaceComplexity\":\"O(n)\",\"verdict\":\"Optimal\",\"review\":\"Clean implementation. Good variable naming and handles primary constraints smoothly.\",\"optimizationTip\":\"Ensure memory usage is minimized by avoiding redundant object allocations in loops.\"}",
+      "submittedAt": "2026-11-01T12:18:02.644Z"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "resume-1788798518681",
+      "userId": "user-demo-123",
+      "fileName": "Pasted_Resume.txt",
+      "extractedText": "ALEX CHEN\nSenior Full Stack Engineer | alex@example.com\nSummary: 5+ years experience building React and Node.js microservices.\nExperience: Architected distributed event pipelines boosting engagement by 35%. Optimized PostgreSQL query performance reducing latency by 45%. Deployed Docker containers via CI/CD.\nSkills: JavaScript, TypeScript, React, Node.js, Express, PostgreSQL, Redis, Docker, AWS.\nEducation: B.S. in Computer Science.",
+      "sectionsJson": "{\"sectionsDetected\":{\"contact\":false,\"summary\":true,\"experience\":true,\"skills\":true,\"education\":true,\"projects\":false},\"missingSections\":[\"Contact\",\"Projects\"],\"actionVerbsCount\":3,\"actionVerbsSample\":[\"architected\",\"deployed\",\"optimized\"],\"skillsFoundCount\":11,\"skillsList\":[\"javascript\",\"typescript\",\"react\",\"node.js\",\"express\",\"postgresql\",\"redis\",\"docker\",\"aws\",\"ci/cd\",\"microservices\"],\"metricCount\":0,\"metricSamples\":[]}",
+      "atsScore": 49,
+      "atsFeedback": "{\"strengths\":[],\"improvements\":[\"Incorporate more high-impact action verbs (e.g. \\\"Architected\\\", \\\"Spearheaded\\\", \\\"Optimized\\\") instead of passive phrasing like \\\"Responsible for\\\".\",\"Add measurable quantifiable metrics (e.g., \\\"reduced P99 latency by 35%\\\", \\\"scaled to 1.2M daily active users\\\").\",\"Critical ATS sections missing or not clearly labeled: Contact, Projects.\"]}",
+      "createdAt": "2026-09-07T16:28:38.681Z",
+      "updatedAt": "2026-09-07T16:28:38.681Z"
+    },
+    {
+      "id": "resume-1793535490921",
+      "userId": "user-demo-123",
+      "fileName": "Pasted_Resume.txt",
+      "extractedText": "ALEX CHEN\nSenior Full Stack Engineer | alex@example.com\nSummary: 5+ years experience building React and Node.js microservices.\nExperience: Architected distributed event pipelines boosting engagement by 35%. Optimized PostgreSQL query performance reducing latency by 45%. Deployed Docker containers via CI/CD.\nSkills: JavaScript, TypeScript, React, Node.js, Express, PostgreSQL, Redis, Docker, AWS.\nEducation: B.S. in Computer Science.",
+      "sectionsJson": "{\"sectionsDetected\":{\"contact\":false,\"summary\":true,\"experience\":true,\"skills\":true,\"education\":true,\"projects\":false},\"missingSections\":[\"Contact\",\"Projects\"],\"actionVerbsCount\":3,\"actionVerbsSample\":[\"architected\",\"deployed\",\"optimized\"],\"skillsFoundCount\":11,\"skillsList\":[\"javascript\",\"typescript\",\"react\",\"node.js\",\"express\",\"postgresql\",\"redis\",\"docker\",\"aws\",\"ci/cd\",\"microservices\"],\"metricCount\":0,\"metricSamples\":[]}",
+      "atsScore": 71,
+      "atsFeedback": "{\"strengths\":[\"Clear inclusion of quantified business impact metrics (e.g., 35% engagement boost, 45% latency reduction).\",\"Well-rounded modern technology stack spanning frontend (React, TS), backend (Node, Express), and database technologies (PostgreSQL, Redis).\",\"Solid foundation in DevOps fundamentals including Docker, AWS, and CI/CD pipelines.\"],\"improvements\":[\"Specify explicit cloud services (e.g., AWS ECS, S3, Lambda) and CI/CD tools (e.g., GitHub Actions, Jenkins) to pass strict ATS filters.\",\"Add explicit mention of automated testing methodologies and frameworks (e.g., Jest, Cypress, React Testing Library).\",\"Expand single-line bullet points into detailed STAR-formatted descriptions highlighting project scale, daily throughput, and architectural leadership.\",\"Incorporate more high-impact action verbs (e.g. \\\"Architected\\\", \\\"Spearheaded\\\", \\\"Optimized\\\") instead of passive phrasing like \\\"Responsible for\\\".\",\"Add measurable quantifiable metrics (e.g., \\\"reduced P99 latency by 35%\\\", \\\"scaled to 1.2M daily active users\\\").\"],\"executiveSummary\":\"Alex Chen is a strong Senior Full Stack Engineer with 5+ years of experience leveraging React, TypeScript, and Node.js microservices. The candidate demonstrates solid backend optimization and infrastructure skills supported by quantified impact metrics. Adding specific testing frameworks and cloud orchestration tool details will further elevate the profile for top-tier senior technical roles.\",\"bulletPointRewrites\":[{\"original\":\"Deployed Docker containers via CI/CD.\",\"optimized\":\"Automated containerized microservice deployments using Docker and GitHub Actions CI/CD pipelines, accelerating deployment frequency by 40% with zero downtime.\"},{\"original\":\"Architected distributed event pipelines boosting engagement by 35%.\",\"optimized\":\"Architected high-throughput, distributed event-driven pipelines using Node.js, Redis, and AWS, processing 1M+ daily events and boosting platform engagement by 35%.\"}]}",
+      "createdAt": "2026-11-01T12:18:10.922Z",
+      "updatedAt": "2026-11-01T12:18:10.922Z"
+    }
+  ],
+  "job_matches": [],
+  "mentor_conversations": [
+    {
+      "id": "mentor-conv-1788798518692",
+      "userId": "user-demo-123",
+      "title": "Career & Interview Strategy",
+      "createdAt": "2026-09-07T16:28:38.692Z",
+      "updatedAt": "2026-09-07T16:28:38.692Z"
+    }
+  ],
+  "mentor_messages": [
+    {
+      "id": "msg-1788798518692",
+      "conversationId": "mentor-conv-1788798518692",
+      "role": "assistant",
+      "content": "Hello! I am your AI Career Mentor. I'm here 24/7 to help you refine your STAR behavioral stories, practice tricky technical answers, review salary negotiations, or prepare for specific company tracks. How can I help you today?",
+      "createdAt": "2026-09-07T16:28:38.692Z"
+    },
+    {
+      "id": "msg-1788798518693-user",
+      "conversationId": "mentor-conv-1788798518692",
+      "role": "user",
+      "content": "How should I negotiate equity vs base salary for a Senior Full Stack Engineer role?",
+      "createdAt": "2026-09-07T16:28:38.693Z"
+    },
+    {
+      "id": "msg-1788798518696-ai",
+      "conversationId": "mentor-conv-1788798518692",
+      "role": "assistant",
+      "content": "### Strategic Salary Negotiation Playbook\n\n1. **Never Give the First Number**: When asked for expectations, respond: *\"I'm focused on finding the right cultural and technical fit first. Once we agree I'm the right engineer for the role, I'm confident we can find a mutually competitive package.\"*\n2. **Anchor on Market Data**: Cite Levels.fyi or Carta data for your target role (Full Stack Engineer).\n3. **Counter with Total Compensation (TC)**: Split between Base, Equity/RSUs, and Sign-on bonus. Always negotiate the sign-on bonus if base salary bands are strict.\n4. **Leverage Competing Timelines**: Frame active interview loops politely to accelerate decisions.",
+      "createdAt": "2026-09-07T16:28:38.696Z"
+    },
+    {
+      "id": "msg-1791864381123-user",
+      "conversationId": "mentor-conv-1788798518692",
+      "role": "user",
+      "content": "What are the core components of the STAR framework?",
+      "createdAt": "2026-10-13T04:06:21.123Z"
+    },
+    {
+      "id": "msg-1791864389764-ai",
+      "conversationId": "mentor-conv-1788798518692",
+      "role": "assistant",
+      "content": "The **STAR framework** is the industry standard for answering behavioral interview questions. For a **Senior Full Stack Engineer**, the key to mastering STAR is spending **70% of your time on the Action** and backing up the **Result with concrete metrics**.\n\nHere is the breakdown, tailored for a senior technical candidate:\n\n---\n\n### Core Components Breakdown\n\n*   **S — Situation (10–15% of your answer)**\n    *   **Goal:** Set the scene quickly. What was the company, project, or technical environment?\n    *   **Senior Tip:** Mention the scope (users, system scale, or team size) to establish complexity immediately.\n    *   *Verbatim Phrase:* `\"At [Company], our core API was struggling under peak load during [Event]...\"`\n\n*   **T — Task (10–15% of your answer)**\n    *   **Goal:** Define *your* explicit responsibility. What was the core challenge or goal you needed to achieve?\n    *   **Senior Tip:** Distinguish between what the *team* needed to do vs. what *you* were accountable for.\n    *   *Verbatim Phrase:* `\"My specific objective was to redesign our caching layer and reduce PostgreSQL load without adding significant infrastructure overhead.\"`\n\n*   **A — Action (60–70% of your answer) — *THE MOST IMPORTANT PART***\n    *   **Goal:** Explain the technical execution, trade-offs, and leadership actions *you* took.\n    *   **Senior Tip:** Focus on *why* you chose specific technologies or patterns (e.g., Redis for session state, React query optimizations, Express middleware tuning). Highlight cross-functional communication or technical mentoring.\n    *   *Verbatim Phrase:* `\"I evaluated two options: DB read replicas vs. a Redis caching layer. I chose Redis because... I wrote the Node.js abstraction, mentored two junior engineers on cache invalidation strategies, and...\"`\n\n*   **R — Result (10–15% of your answer)**\n    *   **Goal:** Share the quantifiable impact and long-term outcome.\n    *   **Senior Tip:** Use hard numbers (latency, uptime, cost savings, PR review speed). Mention takeaways or what you’d do differently.\n    *   *Verbatim Phrase:* `\"As a result, p99 API latency dropped from 450ms to 80ms, DB CPU utilization dropped by 40%, and the architecture handled a 3x traffic spike without downtime.\"`\n\n---\n\n### Pro-Tip for Senior Engineers: The \"STAR-L\" Add-on\nAdd an **L (Learnings)** at the end. Showing self-reflection (e.g., *\"If I were to do it again, I would have set up distributed tracing earlier...\"*) instantly signals senior-level technical maturity.\n\n---\n\n### Ready to practice?\nPick one of these common senior behavioral themes, and draft a response using STAR:\n1. *A time you had to make a tough technical compromise to meet a deadline.*\n2. *A time you led a complex migration (e.g., DB schema, state management, API refactor).*\n3. *A time you resolved a conflict with a Product Manager over technical debt.*",
+      "createdAt": "2026-10-13T04:06:29.764Z"
+    },
+    {
+      "id": "msg-1793535490934-user",
+      "conversationId": "mentor-conv-1788798518692",
+      "role": "user",
+      "content": "How should I negotiate equity vs base salary for a Senior Full Stack Engineer role?",
+      "createdAt": "2026-11-01T12:18:10.934Z"
+    },
+    {
+      "id": "msg-1793535493722-ai",
+      "conversationId": "mentor-conv-1788798518692",
+      "role": "assistant",
+      "content": "### Strategic Salary Negotiation Playbook\n\n1. **Never Give the First Number**: When asked for expectations, respond: *\"I'm focused on finding the right cultural and technical fit first. Once we agree I'm the right engineer for the role, I'm confident we can find a mutually competitive package.\"*\n2. **Anchor on Market Data**: Cite Levels.fyi or Carta data for your target role (Full Stack Engineer).\n3. **Counter with Total Compensation (TC)**: Split between Base, Equity/RSUs, and Sign-on bonus. Always negotiate the sign-on bonus if base salary bands are strict.\n4. **Leverage Competing Timelines**: Frame active interview loops politely to accelerate decisions.",
+      "createdAt": "2026-11-01T12:18:13.722Z"
+    }
+  ],
+  "analytics_snapshots": [
+    {
+      "id": "snapshot-0",
+      "userId": "user-demo-123",
+      "metric": "readiness",
+      "value": 68,
+      "recordedAt": "2026-09-01T16:20:29.590Z"
+    },
+    {
+      "id": "snapshot-1",
+      "userId": "user-demo-123",
+      "metric": "readiness",
+      "value": 72,
+      "recordedAt": "2026-09-02T16:20:29.590Z"
+    },
+    {
+      "id": "snapshot-2",
+      "userId": "user-demo-123",
+      "metric": "readiness",
+      "value": 75,
+      "recordedAt": "2026-09-03T16:20:29.590Z"
+    },
+    {
+      "id": "snapshot-3",
+      "userId": "user-demo-123",
+      "metric": "readiness",
+      "value": 80,
+      "recordedAt": "2026-09-04T16:20:29.590Z"
+    },
+    {
+      "id": "snapshot-4",
+      "userId": "user-demo-123",
+      "metric": "readiness",
+      "value": 82,
+      "recordedAt": "2026-09-05T16:20:29.590Z"
+    },
+    {
+      "id": "snapshot-5",
+      "userId": "user-demo-123",
+      "metric": "readiness",
+      "value": 85,
+      "recordedAt": "2026-09-06T16:20:29.590Z"
+    },
+    {
+      "id": "snapshot-6",
+      "userId": "user-demo-123",
+      "metric": "readiness",
+      "value": 88,
+      "recordedAt": "2026-09-07T16:20:29.590Z"
+    },
+    {
+      "id": "snapshot-1788798518671",
+      "userId": "user-demo-123",
+      "metric": "coding_score",
+      "value": 100,
+      "recordedAt": "2026-09-07T16:28:38.671Z"
+    },
+    {
+      "id": "snapshot-1788798518683",
+      "userId": "user-demo-123",
+      "metric": "ats_score",
+      "value": 49,
+      "recordedAt": "2026-09-07T16:28:38.683Z"
+    },
+    {
+      "id": "snapshot-1791864325787",
+      "userId": "user-demo-123",
+      "metric": "coding_score",
+      "value": 100,
+      "recordedAt": "2026-10-13T04:05:25.788Z"
+    },
+    {
+      "id": "snapshot-1793535482654",
+      "userId": "user-demo-123",
+      "metric": "coding_score",
+      "value": 100,
+      "recordedAt": "2026-11-01T12:18:02.654Z"
+    },
+    {
+      "id": "snapshot-1793535490926",
+      "userId": "user-demo-123",
+      "metric": "ats_score",
+      "value": 71,
+      "recordedAt": "2026-11-01T12:18:10.926Z"
+    }
+  ]
+}
